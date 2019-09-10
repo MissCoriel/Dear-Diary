@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj",
+        "projectName": "DearDiary",
+        "projectPath": "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj",
+        "packagesPath": "C:\\Users\\missc\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\missc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net452": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Pathoschild.Stardew.ModBuildConfig": {
+              "target": "Package",
+              "version": "[3.0.0-beta.8, )"
+            }
+          }
+        }
+      }
+    }
+  }
+}

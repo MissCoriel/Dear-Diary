@@ -1,0 +1,6 @@
+C:\Users\missc\source\repos\DearDiary\DearDiary\bin\Debug\DearDiary.dll
+C:\Users\missc\source\repos\DearDiary\DearDiary\bin\Debug\DearDiary.pdb
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\Debug\DearDiary.csprojAssemblyReference.cache
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\Debug\DearDiary.csproj.CoreCompileInputs.cache
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\Debug\DearDiary.dll
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\Debug\DearDiary.pdb

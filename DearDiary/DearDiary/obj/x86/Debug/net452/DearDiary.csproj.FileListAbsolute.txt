@@ -1,0 +1,10 @@
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\x86\Debug\net452\DearDiary.csproj.CoreCompileInputs.cache
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\x86\Debug\net452\DearDiary.AssemblyInfoInputs.cache
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\x86\Debug\net452\DearDiary.AssemblyInfo.cs
+C:\Users\missc\source\repos\DearDiary\DearDiary\bin\x86\Debug\net452\DearDiary.dll
+C:\Users\missc\source\repos\DearDiary\DearDiary\bin\x86\Debug\net452\DearDiary.pdb
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\x86\Debug\net452\DearDiary.dll
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\x86\Debug\net452\DearDiary.pdb
+C:\Users\missc\source\repos\DearDiary\DearDiary\bin\x86\Debug\net452\Newtonsoft.Json.dll
+C:\Users\missc\source\repos\DearDiary\DearDiary\obj\x86\Debug\net452\DearDiary.csproj.CopyComplete
+C:\Users\missc\source\repos\DearDiary\DearDiary\bin\x86\Debug\net452\manifest.json
