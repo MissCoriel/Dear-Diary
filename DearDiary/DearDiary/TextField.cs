@@ -6,12 +6,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
+using StardewModdingAPI;
+using StardewModdingAPI.Events;
 
 namespace StardewJournal.UI
 {
+    
     public class TextField : IKeyboardSubscriber
     {
+        
+        
         public TextField()
         {
             Text = "";
@@ -59,9 +63,12 @@ namespace StardewJournal.UI
 
         public void RecieveSpecialInput(Keys key)
         {
+            
             switch (key)
             {
+
                 case Keys.Back:
+                    
                     if (Text.Length > 1)
                         Text = Text.Substring(0, Text.Length - 1);
                     else
