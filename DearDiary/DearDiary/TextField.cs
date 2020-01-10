@@ -58,28 +58,27 @@ namespace StardewJournal.UI
 
         public void RecieveCommandInput(char command)
         {
-
+            DearDiary.Mod.TempMonitor.Log($"If you can see this then RecieveCommandInput got a {command}!", LogLevel.Debug);
         }
 
         public void RecieveSpecialInput(Keys key)
         {
-            
+            DearDiary.Mod.TempMonitor.Log($"If you can see this then RecieveSpecialInput is accessed!", LogLevel.Debug);
             switch (key)
             {
-
                 case Keys.Back:
-                    
-                    if (Text.Length > 1)
-                        Text = Text.Substring(0, Text.Length - 1);
-                    else
-                        Text = "";
-                    break;
+                    if (Text.Length == 0) return;
+                    Text = Text.Remove(Text.Length - 1);
+                    return;
                 case Keys.Enter:
                     Text += "^";
-                    break;
+                    return;
+                case Keys.F16:
+                    if (Text.Length == 0) return;
+                    Text = Text.Remove(Text.Length - 1);
+                    return;
             }
         }
-
         public void RecieveTextInput(char inputChar)
         {
             Text += inputChar;

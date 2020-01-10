@@ -17,7 +17,7 @@ namespace StardewJournal.UI
 {
     public class JournalMenu : IClickableMenu
     {
-        private TextField TextKey;
+        
         
         public JournalMenu(IDataHelper helper, string modDirectory) : base((int)Utility.getTopLeftPositionForCenteringOnScreen(Game1.viewport.Width, Game1.viewport.Height).X, (int)Utility.getTopLeftPositionForCenteringOnScreen(Game1.viewport.Width, Game1.viewport.Height).X, Game1.viewport.Width, Game1.viewport.Height, true)
         {
@@ -143,20 +143,19 @@ namespace StardewJournal.UI
 
         public TextField displayedText;
 
-        
 
         public override void receiveKeyPress(Keys key)
 
         {
             
             DearDiary.Mod.TempMonitor.Log($"Pressed {key}", LogLevel.Debug);
-            if (key == Keys.Back)
-            {
-                
-            }
-
             if (this.displayedText.Selected || Game1.options.doesInputListContain(Game1.options.menuButton, key))
                 return;
+            if (Constants.TargetPlatform == GamePlatform.Mac && key == Keys.Back)
+                this.displayedText.RecieveSpecialInput(key);
+            if (Constants.TargetPlatform == GamePlatform.Mac && key == Keys.Enter)
+                this.displayedText.RecieveSpecialInput(key);
+
             base.receiveKeyPress(key);
         }
         public void SetDate(int offset)
