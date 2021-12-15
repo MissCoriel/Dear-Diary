@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "CQ1IiEmjuWvGS/68C3giaxv9WXKXmGtFwkAoc/9wG+9vf26I/SRu3fJ3tiV8KoFHbnDMOuxW/scQ+JJXTCz/Dw==",
+  "success": true,
+  "projectFilePath": "E:\\Stardew Vally Modding\\DearDiary\\DearDiary\\DearDiary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\missc\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\missc\\.nuget\\packages\\pathoschild.stardew.modbuildconfig\\4.0.0\\pathoschild.stardew.modbuildconfig.4.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

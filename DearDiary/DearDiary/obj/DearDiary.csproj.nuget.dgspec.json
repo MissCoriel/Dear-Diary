@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj": {}
+    "E:\\Stardew Vally Modding\\DearDiary\\DearDiary\\DearDiary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj": {
+    "E:\\Stardew Vally Modding\\DearDiary\\DearDiary\\DearDiary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj",
+        "projectUniqueName": "E:\\Stardew Vally Modding\\DearDiary\\DearDiary\\DearDiary.csproj",
         "projectName": "DearDiary",
-        "projectPath": "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj",
+        "projectPath": "E:\\Stardew Vally Modding\\DearDiary\\DearDiary\\DearDiary.csproj",
         "packagesPath": "C:\\Users\\missc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\obj\\",
+        "outputPath": "E:\\Stardew Vally Modding\\DearDiary\\DearDiary\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\missc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\missc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net452"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net452": {
+            "targetAlias": "net452",
             "projectReferences": {}
           }
         },
@@ -38,16 +38,18 @@
       },
       "frameworks": {
         "net452": {
+          "targetAlias": "net452",
           "dependencies": {
             "Newtonsoft.Json": {
               "target": "Package",
-              "version": "[12.0.3, )"
+              "version": "[13.0.1, )"
             },
             "Pathoschild.Stardew.ModBuildConfig": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[4.0.0, )"
             }
-          }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

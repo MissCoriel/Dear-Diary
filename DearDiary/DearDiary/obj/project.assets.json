@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETFramework,Version=v4.5.2": {
-      "Newtonsoft.Json/12.0.3": {
+      "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
           "lib/net45/Newtonsoft.Json.dll": {}
@@ -11,7 +11,7 @@
           "lib/net45/Newtonsoft.Json.dll": {}
         }
       },
-      "Pathoschild.Stardew.ModBuildConfig/3.0.0": {
+      "Pathoschild.Stardew.ModBuildConfig/4.0.0": {
         "type": "package",
         "build": {
           "build/Pathoschild.Stardew.ModBuildConfig.targets": {}
@@ -20,10 +20,10 @@
     }
   },
   "libraries": {
-    "Newtonsoft.Json/12.0.3": {
-      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
       "type": "package",
-      "path": "newtonsoft.json/12.0.3",
+      "path": "newtonsoft.json/13.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -42,19 +42,15 @@
         "lib/netstandard1.3/Newtonsoft.Json.xml",
         "lib/netstandard2.0/Newtonsoft.Json.dll",
         "lib/netstandard2.0/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
-        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
     },
-    "Pathoschild.Stardew.ModBuildConfig/3.0.0": {
-      "sha512": "uitfPZ2v2Yo8xmNjKGs1b/ju58nac2bQ1B6b/DBZ3/FTMdjgJSdVFDRraA/VecZW2utFPoljmaboKCoWdIZZBQ==",
+    "Pathoschild.Stardew.ModBuildConfig/4.0.0": {
+      "sha512": "pBYJp2Mf8brLC/AY0dl9B1TOtdcjCINNL7hBvqSF6vdkjpoyL7ie7RUpBHA4NpD+pycpPMIz+aNxhatpb2XwIg==",
       "type": "package",
-      "path": "pathoschild.stardew.modbuildconfig/3.0.0",
+      "path": "pathoschild.stardew.modbuildconfig/4.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -66,44 +62,43 @@
         "build/SMAPI.Toolkit.dll",
         "build/find-game-folder.targets",
         "images/icon.png",
-        "pathoschild.stardew.modbuildconfig.3.0.0.nupkg.sha512",
+        "pathoschild.stardew.modbuildconfig.4.0.0.nupkg.sha512",
         "pathoschild.stardew.modbuildconfig.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.5.2": [
-      "Newtonsoft.Json >= 12.0.3",
-      "Pathoschild.Stardew.ModBuildConfig >= 3.0.0"
+      "Newtonsoft.Json >= 13.0.1",
+      "Pathoschild.Stardew.ModBuildConfig >= 4.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\missc\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\missc\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj",
+      "projectUniqueName": "E:\\Stardew Vally Modding\\DearDiary\\DearDiary\\DearDiary.csproj",
       "projectName": "DearDiary",
-      "projectPath": "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\DearDiary.csproj",
+      "projectPath": "E:\\Stardew Vally Modding\\DearDiary\\DearDiary\\DearDiary.csproj",
       "packagesPath": "C:\\Users\\missc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\missc\\source\\repos\\DearDiary\\DearDiary\\obj\\",
+      "outputPath": "E:\\Stardew Vally Modding\\DearDiary\\DearDiary\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\missc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\missc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net452"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net452": {
+          "targetAlias": "net452",
           "projectReferences": {}
         }
       },
@@ -115,16 +110,18 @@
     },
     "frameworks": {
       "net452": {
+        "targetAlias": "net452",
         "dependencies": {
           "Newtonsoft.Json": {
             "target": "Package",
-            "version": "[12.0.3, )"
+            "version": "[13.0.1, )"
           },
           "Pathoschild.Stardew.ModBuildConfig": {
             "target": "Package",
-            "version": "[3.0.0, )"
+            "version": "[4.0.0, )"
           }
-        }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
